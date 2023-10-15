@@ -16,6 +16,7 @@ RUN curl -L https://code.jquery.com/jquery-3.6.0.min.js -o ./application/third_p
 
 WORKDIR /var/www/html
 
+EXPOSE 9090
 
 ENTRYPOINT ["php-fpm"]
                                             
