@@ -9,6 +9,7 @@ RUN apt-get update && apt-get install -y \
 RUN curl -L https://github.com/bcit-ci/CodeIgniter/archive/refs/tags/3.1.11.tar.gz | tar xz --strip-components=1
 
 RUN curl -L https://github.com/twbs/bootstrap/releases/download/v5.1.0/bootstrap-5.1.0-dist.zip -o bootstrap.zip && \
+    apt-get update && apt-get install -y unzip && \
     unzip bootstrap.zip -d ./application/third_party/ && \
     rm bootstrap.zip
     
