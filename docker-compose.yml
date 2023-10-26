@@ -19,7 +19,7 @@ services:
       - mynet
 
   myphp:
-    build: ./php
+    build: /home/jjyyao219/3208/src/php
     restart: always
     expose:
       - "9090"
