@@ -1,0 +1,403 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.w{
+    width:90%;
+    margin:auto;
+}
+
+body{
+    background-color: rgb(201, 214, 240);
+    height: 800px;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+}
+
+p{
+    text-indent: 2em;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* nav */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.logo{
+    width:50px;
+    height:50px;
+    float:left;
+    margin-left: 10px;
+}
+
+li{
+    list-style: none;
+}
+
+.nav{
+    float: left;
+    margin-left: 50px;
+}
+
+.nav ul li{
+    float:left;
+    margin:0 15px;
+}
+
+.nav ul li a{
+    height: 50px;
+    padding: 0 10px;
+    display: block;
+    line-height: 50px;
+    font-size: 20px;
+    color: #000;
+}
+
+.nav ul li a:hover{
+    border-bottom: 2px solid gray;
+    color:gray
+}
+
+
+/* banner */
+.banner{
+    height:900px;
+    background-color: rgb(188, 229, 241);
+    width: 100%;
+    margin: 70px auto;
+}
+
+.banner .w{
+    height: 900px;
+    width: 100%;
+    background: url(../images/background-2.1.jpg) no-repeat top center;
+    background-size: cover;
+}
+
+.intro{
+    width: 270px;
+    height: 360px;
+    float: right;
+    background-color: rgba(250, 246, 246, 0.719);
+    margin-top: 320px;
+    line-height: 20px;
+}
+
+.introimage{
+    max-width:100%;
+    height:auto;
+}
+
+.intro h3{
+    height: 48px;
+    text-align: center;
+    line-height: 48px;
+    font-size: 22px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.introtext{
+    padding: 0 30px;
+    margin-top: 48px;
+}
+
+.introtext p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 19px;
+    margin-bottom: 15px;
+}
+
+.introtext .more{
+    height: 38px;
+    font-size: 16px;
+    font-weight: 700;
+    border: 1px solid lightblue;
+    text-align: center;
+    line-height: 38px;
+    color: rgb(85, 124, 250);
+    display: block;
+    margin-top: 5px;
+}
+
+/* box */
+.box{
+    width: 100%;
+    height: 800px;
+    margin-top: 30px;
+}
+
+.box .w{
+    height: 800px;
+    background:lightcyan no-repeat top center;
+    margin-bottom: 100px;
+}
+
+.boxes1 ul li{
+    float: left;
+    width: 420px;
+    height: 700px;
+    margin-right: 30px;
+    background-color: rgb(200, 248, 248);
+    margin-bottom: 15px;
+    margin-left: 30px;
+}
+
+.boxes2 ul li{
+    float: left;
+    width: 100%;
+    height: 500px;
+    margin-right: 30px;
+    background-color: rgb(200, 248, 248);
+    margin-bottom: 15px;
+    justify-content: center;
+}
+
+.box img{
+    width: 100%;
+    height: 300px;
+}
+
+.boxcontent{
+    height: 70px;
+    font-size: 22px;
+    padding: 0 28px;
+    margin-top: 30px;
+}
+
+/* activity */
+.activitybox{
+    padding-left: 80px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    margin: 1%;
+    border: dotted #cea8f8;
+}
+
+
+.activitytext{
+    width: 40%;
+}
+
+.activityimg{
+    width: 60%;
+    height: auto;
+    max-width: 600px;
+    max-height: 800px;
+}
+
+.activitycontent h1{
+    margin-left: 5%;
+    margin-right: auto;
+    margin-bottom: 5%;
+}
+
+.activitycontent img{
+    float: right;
+    margin-right: 50px;
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;    
+}
+
+/* facility */
+.facilitybox{
+    padding-left: 80px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    margin: 1%;
+    border: dotted #cea8f8;
+}
+
+
+.facilitytext{
+    width: 40%;
+}
+
+.facilityimg{
+    width: 60%;
+    height: auto;
+    max-width: 600px;
+    max-height: 800px;
+}
+
+.facilitycontent h1{
+    margin-left: 5%;
+    margin-right: auto;
+    margin-bottom: 5%;
+}
+
+.facilitycontent img{
+    float: right;
+    margin-right: 50px;
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;    
+}
+
+/* introduction */
+.introductioncontent{
+    width: 100%;
+    height: 1000px;
+    padding: 50px;
+    background-color: rgb(212, 241, 241);
+}
+
+.introductioncontent img{
+    margin-right: 30px;
+    height: 100%;
+    width: 100%;
+}
+
+.introductiontext{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 100px;
+}
+
+.introductiontext h1{
+    margin-top: 100px;
+    font-size: 32px;
+    padding: 10px;
+    text-align: center;
+}
+
+.introductiontext p{
+    font-size: 26px;
+    padding: 0 28px;
+    margin-top: 30px;
+    height: 70px;
+    margin-bottom: 100px;
+}
+
+/*Header */
+.header .contertext{
+	background-size: 50% width 100% height;
+	background-position: center center;
+	text-align: center;
+	font-size: 16px;
+	line-height: 38px;
+}
+
+/* Q&A and Book*/	
+.centertext1{
+    width: 100%;
+    height: 760px;
+    background-size: 50% width 100% height;
+	background-position: center center;
+    background-image: url(images/t-rex-g07c455318_1920.jpg);
+    margin-top: 70px ;
+}
+
+.centertext2{
+    width: 100%;
+    height: 700px;
+    background-size: 50% width 100% height;
+	background-position: center center;
+    background-image: url(images/dinosaur-gb72a2cc6e_1920.jpg);
+    margin-top: 70px ;
+}
+
+.centertext1 figure {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.centertext2 figure {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.centertextcontent{
+	text-align: center;
+}
+
+.centertextcontent h1 {
+	font-size:20px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    margin-top: 30px;
+}
+
+.centertextcontent p{
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+.facilitycontent a{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+/* account */
+.header .account {
+	background-size: cover;
+	background-position: center center;
+	text-align: center;
+	font-size: 20px;
+	line-height: 38px;	
+}
+
+fieldset {
+	width: 900px;
+    height: 500px;
+    font-size: 24px;
+	text-align: center;
+	padding-top: 80px ;
+	padding-left: 650px;
+	padding-bottom: 80px;
+	line-height: 40px;
+    background-image: url(images/street-art-gc8bdf133c_1920.jpg);
+    background-size: 50% width 100% height;
+	background-position: center center;
+}
+
+button {
+    font-weight: 800px;
+    font-size: 22px;
+    background: rgb(241, 152, 50);
+    color: white;
+    border:black;
+    border-radius: 30px;
+}
+
+input {
+	width:280px;
+	height:20px;
+    text-align: center;
+}
+
+/* clock */
+.clock{
+    position: absolute;
+    top: 5%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    width: 180px;
+}
+
+.clock p{
+  width: 20px;
+  text-align: center;
+  font-family: Kanit;
+  font-size: 20px;
+  color: black;
+  float: left;
+  margin: -3px;
+}
+

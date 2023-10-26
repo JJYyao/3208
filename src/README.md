@@ -1,0 +1,1 @@
+This project was completed independently by myself, and part of the code came from my DECO7140, DECO7202 assignments and practicals' learning resources provided by the teaching team. In addition, the part of flexslider.js is derived from public information on the Internet. All pictures come from VALVE, Dota community and social media.
